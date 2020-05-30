@@ -27,3 +27,19 @@ form {
   padding: 10px;
   
 }
+.card {
+  text-align: center;
+  margin: 10px;
+}
+img {
+  width: 100%;
+  height: 200px;
+}
+.river-header {
+  text-align: center;
+}
+#river-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: row wrap;
+}
