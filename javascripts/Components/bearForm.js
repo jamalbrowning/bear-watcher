@@ -1,7 +1,9 @@
-
+// import bearArray from '../Helpers/Data/bears.js'
 import utils from '../Helpers/utils.js'
+// import bears from '../Helpers/Data/bears.js';
+// import buildBears from '../Components/river.js'
 
-const bearFormCreate= () => {
+const bearFormCreate = () => {
   
   const domString = `
 
@@ -21,6 +23,19 @@ const bearFormCreate= () => {
   utils.printToDom('#bear-form' , domString)
 
 }
+
+// const createNewBear = (e) => {
+//   e.preventDefault();
+
+//   const newBear = {
+//     name: $('#bear-name').value,
+//     imageUrl: document.querySelector('#bear-image').value,
+//   };
+
+  
+
+//   buildBears.bearCardBuilder();
+// };
 
 
 export default {bearFormCreate}
