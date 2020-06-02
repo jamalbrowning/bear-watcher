@@ -1,9 +1,12 @@
 h1 {
   text-align: center;
+  
 }
 .about-container {
   display: flex;
   justify-content: center;
+  background-color: rgba(68, 173, 177, 0.349);
+  margin-top: 10px;
 }
 .about-section {
   border: 1px solid black;
@@ -16,7 +19,7 @@ h1 {
   text-align: center;
   display: flex;
   justify-content: center;
-  
+  background-color: rgba(68, 173, 177, 0.349);
   
 }
 form {
@@ -27,6 +30,7 @@ form {
   padding: 10px;
   
 }
+
 .card {
   text-align: center;
   margin: 10px;
@@ -43,3 +47,8 @@ img {
   justify-content: center;
   flex-wrap: row wrap;
 }
+.btn {
+  margin: 10px;
+
+}
+

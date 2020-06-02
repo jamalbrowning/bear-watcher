@@ -12,6 +12,9 @@ const bears = bearData.getBears();
         <div class="card-body">
           <h5 class="card-name">${bear.name}</h5>
         </div>
+        <div class="card-button">
+          <button class="btn btn-danger"><i class="fas fa-fish"></i></button>
+        </div>
       </div>`
       });
   
@@ -20,3 +23,4 @@ const bears = bearData.getBears();
   
 
   export default {bearCardBuilder}
+
